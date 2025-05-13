@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Bubblegum Sans', cursive;
+    background: url('./assets/confetti.jpg') no-repeat center/cover, linear-gradient(to bottom, #FFB6C1, #DDA0DD);
+    color: #1E2A44;
+}
+
+/* Header and Navigation */
+header {
+    background: #FFD700; /* Gold for Burna Boy */
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+    color: #1E2A44;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #FFB6C1;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 3.5rem;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px #DDA0DD;
+}
+
+.hero p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero-media {
+    max-width: 80%;
+    border-radius: 15px;
+    border: 3px solid #FFD700;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.birthday-decor {
+    max-width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #DDA0DD;
+    color: #1E2A44;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #FFB6C1;
+}
+
+/* Content Sections */
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 2.5rem;
+    color: #FFD700;
+    text-align: center;
+}
+
+.content p, .content ul, .content form {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.poem {
+    font-style: italic;
+    text-align: center;
+    background: #FFB6C1;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.gallery, .timeline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery img, .gallery video, .timeline img, .timeline video {
+    max-width: 200px;
+    border-radius: 15px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.memory-jar {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.memory-jar button, button {
+    padding: 0.5rem 1rem;
+    background: #FFD700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.memory-jar button:hover, button:hover {
+    background: #DDA0DD;
+}
+
+#memory-note {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #1E2A44;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+textarea {
+    height: 100px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #1E2A44;
+    font-family: 'Playfair Display', serif;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #FFD700;
+    text-shadow: 1px 1px 2px #DDA0DD;
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .hero h1 { font-size: 2.5rem; }
+    .content h2 { font-size: 2rem; }
+    .gallery img, .gallery video, .timeline img, .timeline video { max-width: 150px; }
+    nav ul li { margin: 0.5rem; }
+    .birthday-decor { max-width: 50px; }
+}
