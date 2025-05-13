@@ -1,0 +1,11 @@
+<section class="content">
+    <h2>Leave a June 5 Wish ??</h2>
+    <p>My star, Kofoworola, share your birthday dreams or E.K Fashion Fusion goals!</p>
+    <form id="guestbook-form">
+        <textarea placeholder="Your birthday message..." required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="guestbook-messages"></div>
+    <img src="./assets/kofoworola-smiling.jpg" alt="Kofoworola smiling" class="fade-in">
+    <img src="./assets/cake.png" alt="Birthday Cake" class="birthday-decor">
+</section>

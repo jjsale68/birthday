@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Kofoworola!</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About You</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="dreams.html">Dreams</a></li>
+                <li><a href="love.html">My Love</a></li>
+                <li><a href="surprise.html">Surprise</a></li>
+                <li><a href="guestbook.html">Guestbook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Happy Birthday, Kofoworola! ??</h1>
+        <p>My love, on June 5, you dance and sing like Burna Boy lights up the stage! Your talent and E.K Fashion Fusion make this day epic. Let’s celebrate!</p>
+        <img src="./assets/balloons.png" alt="Balloons" class="birthday-decor">
+        <video controls src="./assets/kofoworola-dancing.mp4" class="hero-media"></video>
+        <a href="about.html" class="btn">Step into Your Birthday Spotlight</a>
+    </section>
+    <audio autoplay loop style="display: none;">
+        <source src="./assets/burna-boy-song.mp3" type="audio/mpeg">
+    </audio>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<section class="content">
+    <h2>Memories That Light Up Your Birthday ??</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <img src="./assets/chunz-meeting.jpg" alt="Chunz Meeting" class="fade-in">
+            <p>First Time at Chunz: Your vibe caught my soul, the start of our love.</p>
+        </div>
+        <div class="timeline-item">
+            <img src="./assets/proposal-day.jpg" alt="Proposal Day" class="fade-in">
+            <p>The Day I Asked You: Your “yes” was my greatest gift.</p>
+        </div>
+        <div class="timeline-item">
+            <img src="./assets/night-together.jpg" alt="Night Together" class="fade-in">
+            <p>Our Night Together: We vibed under the stars, pure magic.</p>
+        </div>
+    </div>
+    <h3>Birthday Love Notes</h3>
+    <ul>
+        <li>Your dancing is my favorite show.</li>
+        <li>E.K Fashion Fusion is Nigeria’s next big thing.</li>
+        <li>I love you more than Ziba’s sunsets.</li>
+    </ul>
+    <div class="memory-jar">
+        <button onclick="showMemoryNote()">Open Birthday Jar</button>
+        <p id="memory-note" style="display: none;">Happy Birthday, Kofoworola!</p>
+    </div>
+    <video controls src="./assets/montage.mp4" class="fade-in"></video>
+</section>

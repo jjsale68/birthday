@@ -1,0 +1,23 @@
+<section class="content">
+    <h2>Your Talents Shine on June 5 ??</h2>
+    <p>Kofoworola, your dancing sets the stage ablaze, and your singing lifts hearts—pure Burna Boy energy! E.K Fashion Fusion is your crown. Happy Birthday!</p>
+    <h3>5 Reasons You’re My Birthday Star</h3>
+    <ul>
+        <li>Your voice that vibes like Burna’s hits.</li>
+        <li>Your dance moves that steal the show.</li>
+        <li>Your vision for E.K Fashion Fusion’s empire.</li>
+        <li>Your smile that’s brighter than Ziba’s waves.</li>
+        <li>Your heart that makes every day a party.</li>
+    </ul>
+    <p class="poem">
+        On June 5, you glow, my star so bright,<br>
+        Dancing, singing, building dreams in sight.<br>
+        Kofoworola, my love, today’s your throne,<br>
+        Happy Birthday, my queen, you’re never alone.
+    </p>
+    <div class="gallery">
+        <img src="./assets/kofoworola-singing.jpg" alt="Kofoworola singing" class="fade-in">
+        <img src="./assets/kofoworola-smiling.jpg" alt="Kofoworola smiling" class="fade-in">
+        <video controls src="./assets/kofoworola-singing.mp4" class="fade-in"></video>
+    </div>
+</section>

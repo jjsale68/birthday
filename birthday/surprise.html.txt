@@ -1,0 +1,14 @@
+<section class="content">
+    <h2>Your Birthday Surprise Awaits ??</h2>
+    <p>Kofoworola, pack your beach bag! On June 5, we’re vibing at Ziba Beach with Burna Boy tunes and sunset waves. Your dream day awaits!</p>
+    <h3>Our Love Story Quiz</h3>
+    <form>
+        <p>What Burna Boy song was playing when we first kissed?</p>
+        <input type="radio" name="q1" value="a"> On The Low<br>
+        <input type="radio" name="q1" value="b"> Ye<br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="countdown"></div>
+    <video controls src="./assets/surprise-setup.mp4" class="fade-in"></video>
+    <img src="./assets/ziba-beach.jpg" alt="Ziba Beach" class="birthday-decor">
+</section>

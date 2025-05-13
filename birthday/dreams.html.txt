@@ -1,0 +1,13 @@
+<section class="content">
+    <h2>Your Dreams Are Your Birthday Wish ??</h2>
+    <p>Kofoworola, your dancing and singing light up stages, and E.K Fashion Fusion is set to conquer the world. This June 5, I wish for your empire to soar!</p>
+    <h3>Birthday Dream Board</h3>
+    <ul>
+        <li>E.K Fashion Fusion becoming a global fashion brand.</li>
+        <li>Singing a Burna Boy duet that goes viral.</li>
+        <li>Dancing in a Lagos music video.</li>
+    </ul>
+    <blockquote>Your birthday is the runway for your dreams, Kofoworola!</blockquote>
+    <video controls src="./assets/kofoworola-dancing.mp4" class="fade-in"></video>
+    <img src="./assets/kofoworola-stage.jpg" alt="Kofoworola on stage" class="fade-in">
+</section>
